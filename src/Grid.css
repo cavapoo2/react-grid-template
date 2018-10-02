@@ -11,19 +11,57 @@ ul.grid {padding: 0; margin: 0;}
 *[class^="box"][class*="04"] {color: rgb(0,128,0);   background: rgba(0,128,0,0.1);}
 *[class^="box"][class*="05"] {color: rgb(0,0,255);   background: rgba(0,0,255,0.1);}
 *[class^="box"][class*="06"] {color: rgb(128,0,128); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="07"] {color: rgb(128,50,128); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="08"] {color: rgb(128,50,50); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="09"] {color: rgb(128,20,20); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="10"] {color: rgb(55,200,20); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="11"] {color: rgb(55,200,100); background: rgba(128,0,128,0.1);}
+*[class^="box"][class*="12"] {color: rgb(55,200,100); background: rgba(128,0,128,0.1);}
 
 span[class*="gridline"] {border: 1px dashed; margin: -1px 0 0 -1px;}
 
 .grid {display: grid;
 	grid-template-areas:
-	"h h h h h"
-	"l c c c r"
-	"l c c c r"
-	"l c c c r"
-	"f f f f f";
-grid-template-rows: repeat(5,3em);}
+	"e e i h"
+	"c c c c"
+	"c c c c"
+	"m m m m"
+	"m m m m"
+	"m m m m"
+	"s s s s"
+	"s s s s"
+	"s s s s"
+	"s s s s"
+	"s s s s"
+	"s s s s"
+	"s s s s"
+	"p p p p"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"a a a a"
+	"f f f f";
+grid-template-rows: repeat(30,50px);}
 .header {grid-area: h;}
+/*.header2 {grid-area: h2;}*/
 .leftside {grid-area: l;}
 .rightside {grid-area: r;}
 .content {grid-area: c;}
 .footer {grid-area: f;}
+.empty {grid-area: e;}
+.iconmenu {grid-area: i;}
+.mainmenu {grid-area: m;}
+.imageshowcase {grid-area: s;}
+.featuredProductsHeader{grid-area:p;}
+.featuredProductsImages{grid-area:a;}
