@@ -16,10 +16,12 @@ span[class*="gridline"] {border: 1px dashed; margin: -1px 0 0 -1px;}
 
 .grid {display: grid;
 	grid-template-areas:
-	"h h h h"
-	"l c c r"
-	"l f f f";
-grid-template-rows: repeat(3,3em);}
+	"h h h h h"
+	"l c c c r"
+	"l c c c r"
+	"l c c c r"
+	"f f f f f";
+grid-template-rows: repeat(5,3em);}
 .header {grid-area: h;}
 .leftside {grid-area: l;}
 .rightside {grid-area: r;}
