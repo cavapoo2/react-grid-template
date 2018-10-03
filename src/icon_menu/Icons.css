@@ -1,15 +1,7 @@
-.Icons Icon {
-    /*
-  width:2em;
-  height:2em;*/
- align-items:flex-start;
-  justify-content: space-around;  
-}
-.Icons div {
+.Icons {
   display:flex;
- 
-  /*
-  border:1px solid;
-  padding:2px;*/
+  width:100%;
+ align-items:center;
+  justify-content: space-around  ;
   background-color:grey;
 }

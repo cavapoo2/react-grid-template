@@ -9,7 +9,7 @@ const Icons = ({images,noalt}) => {
             (!noalt) ? <Icon key={k++} src={v.src} alt={v.alt}/> : <Icon key={k++} src={v.src} alt=''/>
         );
     });
-    return <div>{imgs}</div>;
+    return  imgs;
 }
 
 Icons.protoType = { 
